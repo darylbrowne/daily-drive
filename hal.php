@@ -352,29 +352,29 @@ if (strpos($_SERVER['QUERY_STRING'], 'audio') || strpos($_SERVER['REQUEST_URI'],
 		
 		$content = file_get_contents($ga_asset_file_root . '.php'); 
 
-		$content = preg_replace('/\$ga_option_0_title=\"(.*?)\";/', '$ga_option_0_title="' . $ga_option_0_title . '";', $content);
-		$content = preg_replace('/\$ga_option_0_image=\"(.*?)\";/', '$ga_option_0_image="' . $ga_option_0_image . '";', $content);
-		$content = preg_replace('/\$ga_option_0_description=\"(.*?)\";/', '$ga_option_0_description="' . $ga_option_0_description . '";', $content);
-		$content = preg_replace('/\$ga_option_0_button_url=\"(.*?)\";/', '$ga_option_0_button_url="' . $ga_option_0_button_url . '";', $content);
-		$content = preg_replace('/\$ga_option_0_button_text=\"(.*?)\";/', '$ga_option_0_button_text="' . $ga_option_0_button_text . '";', $content);
+		$content = preg_replace('/\$ga_option_0_title=\"(.*?)\";/', '$ga_option_0_title="sdfsdfsdfsdfsdf";', $content);
+		$content = preg_replace('/\$ga_option_0_image=\"(.*?)\";/', '$ga_option_0_image="";', $content);
+		$content = preg_replace('/\$ga_option_0_description=\"(.*?)\";/', '$ga_option_0_description="";', $content);
+		$content = preg_replace('/\$ga_option_0_button_url=\"(.*?)\";/', '$ga_option_0_button_url="https://www.youtube.com/embed/gYVabrVtCBU";', $content);
+		$content = preg_replace('/\$ga_option_0_button_text=\"(.*?)\";/', '$ga_option_0_button_text="Hear More";', $content);
 
-		$content = preg_replace('/\$ga_option_1_title=\"(.*?)\";/', '$ga_option_1_title="' . $ga_option_1_title . '";', $content);
-		$content = preg_replace('/\$ga_option_1_subtitle=\"(.*?)\";/', '$ga_option_1_subtitle="' . $ga_option_1_subtitle . '";', $content);
-		$content = preg_replace('/\$ga_option_1_description=\"(.*?)\";/', '$ga_option_1_description="' . $ga_option_1_description . '";', $content);
-		$content = preg_replace('/\$ga_option_1_button_url=\"(.*?)\";/', '$ga_option_1_button_url="' . $ga_option_1_button_url . '";', $content);
-		$content = preg_replace('/\$ga_option_1_button_text=\"(.*?)\";/', '$ga_option_1_button_text="' . $ga_option_1_button_text . '";', $content);
+		$content = preg_replace('/\$ga_option_1_title=\"(.*?)\";/', '$ga_option_1_title="When Will Mine Be Ready?";', $content);
+		$content = preg_replace('/\$ga_option_1_subtitle=\"(.*?)\";/', '$ga_option_1_subtitle="How Do I Get One?";', $content);
+		$content = preg_replace('/\$ga_option_1_description=\"(.*?)\";/', '$ga_option_1_description="";', $content);
+		$content = preg_replace('/\$ga_option_1_button_url=\"(.*?)\";/', '$ga_option_1_button_url="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin";', $content);
+		$content = preg_replace('/\$ga_option_1_button_text=\"(.*?)\";/', '$ga_option_1_button_text="Start Yours";', $content);
 
-		$content = preg_replace('/\$ga_option_2_title=\"(.*?)\";/', '$ga_option_2_title="' . $ga_option_2_title . '";', $content);
-		$content = preg_replace('/\$ga_option_2_subtitle=\"(.*?)\";/', '$ga_option_2_subtitle="' . $ga_option_2_subtitle . '";', $content);
-		$content = preg_replace('/\$ga_option_2_description=\"(.*?)\";/', '$ga_option_2_description="' . $ga_option_2_description . '";', $content);
-		$content = preg_replace('/\$ga_option_2_button_url=\"(.*?)\";/', '$ga_option_2_button_url="' . $ga_option_2_button_url . '";', $content);
-		$content = preg_replace('/\$ga_option_2_button_text=\"(.*?)\";/', '$ga_option_2_button_text="' . $ga_option_2_button_text . '";', $content);
+		$content = preg_replace('/\$ga_option_2_title=\"(.*?)\";/', '$ga_option_2_title="Why Would I Want One?";', $content);
+		$content = preg_replace('/\$ga_option_2_subtitle=\"(.*?)\";/', '$ga_option_2_subtitle="What Is It?";', $content);
+		$content = preg_replace('/\$ga_option_2_description=\"(.*?)\";/', '$ga_option_2_description="";', $content);
+		$content = preg_replace('/\$ga_option_2_button_url=\"(.*?)\";/', '$ga_option_2_button_url="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin";', $content);
+		$content = preg_replace('/\$ga_option_2_button_text=\"(.*?)\";/', '$ga_option_2_button_text="Create One";', $content);
 
-		$content = preg_replace('/\$ga_option_3_title=\"(.*?)\";/', '$ga_option_3_title="' . $ga_option_3_title . '";', $content);
-		$content = preg_replace('/\$ga_option_3_subtitle=\"(.*?)\";/', '$ga_option_3_subtitle="' . $ga_option_3_subtitle . '";', $content);
-		$content = preg_replace('/\$ga_option_3_description=\"(.*?)\";/', '$ga_option_3_description="' . $ga_option_3_description . '";', $content);
-		$content = preg_replace('/\$ga_option_3_button_url=\"(.*?)\";/', '$ga_option_3_button_url="' . $ga_option_3_button_url . '";', $content);
-		$content = preg_replace('/\$ga_option_3_button_text=\"(.*?)\";/', '$ga_option_3_button_text="' . $ga_option_3_button_text . '";', $content);
+		$content = preg_replace('/\$ga_option_3_title=\"(.*?)\";/', '$ga_option_3_title="What\'s the Backstory?";', $content);
+		$content = preg_replace('/\$ga_option_3_subtitle=\"(.*?)\";/', '$ga_option_3_subtitle="Who Makes Them?";', $content);
+		$content = preg_replace('/\$ga_option_3_description=\"(.*?)\";/', '$ga_option_3_description="";', $content);
+		$content = preg_replace('/\$ga_option_3_button_url=\"(.*?)\";/', '$ga_option_3_button_url="https://02b7cf4.netsolhost.com/voicedestination/hal.php#admin";', $content);
+		$content = preg_replace('/\$ga_option_3_button_text=\"(.*?)\";/', '$ga_option_3_button_text="Make Yours";', $content);
 
 		file_put_contents($ga_asset_file_root . '.php', $content);
 
